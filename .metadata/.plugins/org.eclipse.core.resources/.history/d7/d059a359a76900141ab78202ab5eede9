@@ -1,0 +1,96 @@
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Scanner;
+
+
+public class HighestPalindrome {
+
+	
+	public static void main(String[] args) {
+		
+		Scanner in = new Scanner(System.in);
+		
+		ArrayList<Integer> products = new ArrayList<Integer>();
+		
+		int highest = 0;
+		boolean found = false;
+		
+		int n = 999;
+		int m = 999;
+
+			
+		while (n > 990 && m > 990){
+				
+			while (m > 990){
+					
+				products.add(n*m);
+				m--;
+					
+			}
+				
+			n--;
+			m = n;
+				
+		}
+		
+		System.out.println("ArrayList is finishing" + products.size());
+		
+		Collections.sort(products);
+		
+		
+		while (found == false){
+			
+			int counter = products.size()-1;
+			
+			if (isPallindrome(products.get(counter))){
+				
+				highest = products.get(counter);
+				found = true;
+			}
+			
+		}
+		
+		if (highest != 0){
+			
+			System.out.println("The Highest Pallindrome is " + highest);
+				
+		}else{
+			
+			System.out.println("No Pallindrome found");
+			
+		}
+		
+	}
+	
+	public static boolean isPallindrome(int num){
+		
+		char[] nums = Integer.toString(num).toCharArray();
+		
+		boolean check = true;
+		
+		//if((nums.length%2) == 0){
+			int start = 0;
+			int end = nums.length - 1;
+			
+			while (start < end && check == true ){
+				
+				if (nums[start] != nums[end]){
+					
+					check = false;
+					
+				}else{
+					
+					start++;
+					end--;
+					
+				}
+				
+			}
+			
+		return check;
+			
+		//}
+		
+	}
+
+}

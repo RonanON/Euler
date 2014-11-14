@@ -1,0 +1,66 @@
+import java.util.ArrayList;
+import java.util.Scanner;
+
+
+public class PrimeFactors {
+	
+	static Scanner in = new Scanner(System.in);
+	static ArrayList<Integer> Primes = new ArrayList<Integer>();
+	//ArrayList<Integer> PrimeFactors = new ArrayList<Integer>();
+	
+	public static void main(String[] args) {
+		
+		
+		long number = 0;
+		
+		System.out.print("Input number: ");
+		number = in.nextLong();
+		
+		Factorise(number, Primes);
+		
+		System.out.println("The largest Prime factor is " + Primes.get(Primes.size()-1));
+		
+		
+
+	}
+	/*
+	public int SquareRoot(int num){
+		
+		int Sqr;
+		
+		Sqr = (int) Math.ceil(Math.sqrt(num));
+		
+		return Sqr;
+	}
+	*/
+	
+	public static void Factorise(long num, ArrayList<Integer> Primes){
+		
+		int divisor = 2;
+		
+		while (num > 1) {
+			
+			while (num % divisor == 0){
+				
+				Primes.add(divisor);
+				num /= divisor;
+				
+			}
+			
+			if (divisor == 2) {
+				
+				divisor++;
+				
+			}else{
+				
+				divisor += 2;
+				
+			}
+			
+			
+		}
+			
+		
+	}
+
+}

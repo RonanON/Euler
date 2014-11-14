@@ -1,0 +1,240 @@
+!SESSION 2014-04-29 18:45:38.459 -----------------------------------------------
+eclipse.buildId=M20120914-1800
+java.version=1.7.0_15
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IE
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -data E:\Workspaces\New folder -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2014-04-29 18:57:22.112
+!MESSAGE Failed to open search index.
+!SESSION 2014-05-09 18:12:18.566 -----------------------------------------------
+eclipse.buildId=M20120914-1800
+java.version=1.7.0_15
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IE
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.tigris.subversion.subclipse.core 4 0 2014-05-09 18:14:12.550
+!MESSAGE Could not auto-share project FibonacciSum
+!STACK 1
+org.tigris.subversion.subclipse.core.SVNException: Provided SVN information does not match that on disk for project 'FibonacciSum'.
+	at org.tigris.subversion.subclipse.core.resources.SVNWorkspaceRoot.setSharing(SVNWorkspaceRoot.java:206)
+	at org.tigris.subversion.subclipse.core.SVNTeamProviderType$AutoShareJob.autoconnectSVNProject(SVNTeamProviderType.java:140)
+	at org.tigris.subversion.subclipse.core.SVNTeamProviderType$AutoShareJob.run(SVNTeamProviderType.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 org.tigris.subversion.subclipse.core 4 4 2014-05-09 18:14:12.551
+!MESSAGE Provided SVN information does not match that on disk for project 'FibonacciSum'.
+
+!ENTRY org.tigris.subversion.subclipse.core 4 0 2014-05-09 18:33:41.513
+!MESSAGE Could not auto-share project PrimeFactors
+!STACK 1
+org.tigris.subversion.subclipse.core.SVNException: Provided SVN information does not match that on disk for project 'PrimeFactors'.
+	at org.tigris.subversion.subclipse.core.resources.SVNWorkspaceRoot.setSharing(SVNWorkspaceRoot.java:206)
+	at org.tigris.subversion.subclipse.core.SVNTeamProviderType$AutoShareJob.autoconnectSVNProject(SVNTeamProviderType.java:140)
+	at org.tigris.subversion.subclipse.core.SVNTeamProviderType$AutoShareJob.run(SVNTeamProviderType.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 org.tigris.subversion.subclipse.core 4 4 2014-05-09 18:33:41.513
+!MESSAGE Provided SVN information does not match that on disk for project 'PrimeFactors'.
+!SESSION 2014-11-11 00:37:45.431 -----------------------------------------------
+eclipse.buildId=M20120914-1800
+java.version=1.7.0_15
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IE
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.core.resources 2 10035 2014-11-11 00:37:53.093
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2014-11-11 01:25:34.738
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for ArrayList {key=Ljava/util/ArrayList<Ljava/lang/Integer;>;} [in ArrayList.class [in java.util [in C:\Program Files\Java\jre7\lib\rt.jar]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:77)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:997)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:463)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:619)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:565)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:557)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:129)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:85)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:166)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2014-11-11 01:25:34.738
+!MESSAGE Unknown javadoc format for ArrayList {key=Ljava/util/ArrayList<Ljava/lang/Integer;>;} [in ArrayList.class [in java.util [in C:\Program Files\Java\jre7\lib\rt.jar]]]
+!SESSION 2014-11-11 12:29:55.708 -----------------------------------------------
+eclipse.buildId=M20120914-1800
+java.version=1.7.0_15
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IE
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.tigris.subversion.subclipse.core 4 0 2014-11-11 12:31:21.104
+!MESSAGE Could not auto-share project HighestPalindrome
+!STACK 1
+org.tigris.subversion.subclipse.core.SVNException: Provided SVN information does not match that on disk for project 'HighestPalindrome'.
+	at org.tigris.subversion.subclipse.core.resources.SVNWorkspaceRoot.setSharing(SVNWorkspaceRoot.java:206)
+	at org.tigris.subversion.subclipse.core.SVNTeamProviderType$AutoShareJob.autoconnectSVNProject(SVNTeamProviderType.java:140)
+	at org.tigris.subversion.subclipse.core.SVNTeamProviderType$AutoShareJob.run(SVNTeamProviderType.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 org.tigris.subversion.subclipse.core 4 4 2014-11-11 12:31:21.104
+!MESSAGE Provided SVN information does not match that on disk for project 'HighestPalindrome'.
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2014-11-11 12:32:05.590
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for ArrayList {key=Ljava/util/ArrayList<Ljava/lang/Integer;>;} [in ArrayList.class [in java.util [in C:\Program Files\Java\jre7\lib\rt.jar]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:77)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:997)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:463)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:619)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:565)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:557)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:129)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:85)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:166)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2014-11-11 12:32:05.590
+!MESSAGE Unknown javadoc format for ArrayList {key=Ljava/util/ArrayList<Ljava/lang/Integer;>;} [in ArrayList.class [in java.util [in C:\Program Files\Java\jre7\lib\rt.jar]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2014-11-11 13:05:49.497
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for String [in String.class [in java.lang [in C:\Program Files\Java\jre7\lib\rt.jar]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:77)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:997)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:463)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:619)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:565)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:557)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:129)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:85)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:166)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2014-11-11 13:05:49.497
+!MESSAGE Unknown javadoc format for String [in String.class [in java.lang [in C:\Program Files\Java\jre7\lib\rt.jar]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2014-11-11 13:38:22.289
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for Scanner {key=Ljava/util/Scanner;} [in Scanner.class [in java.util [in C:\Program Files\Java\jre7\lib\rt.jar]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:77)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:997)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:463)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:619)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:565)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:557)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:129)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:85)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:166)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2014-11-11 13:38:22.289
+!MESSAGE Unknown javadoc format for Scanner {key=Ljava/util/Scanner;} [in Scanner.class [in java.util [in C:\Program Files\Java\jre7\lib\rt.jar]]]
+!SESSION 2014-11-11 16:36:54.318 -----------------------------------------------
+eclipse.buildId=M20120914-1800
+java.version=1.7.0_15
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IE
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.core.resources 2 10035 2014-11-11 16:36:57.334
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.tigris.subversion.subclipse.core 4 0 2014-11-11 16:39:00.083
+!MESSAGE Could not auto-share project SmallestMultiple
+!STACK 1
+org.tigris.subversion.subclipse.core.SVNException: Provided SVN information does not match that on disk for project 'SmallestMultiple'.
+	at org.tigris.subversion.subclipse.core.resources.SVNWorkspaceRoot.setSharing(SVNWorkspaceRoot.java:206)
+	at org.tigris.subversion.subclipse.core.SVNTeamProviderType$AutoShareJob.autoconnectSVNProject(SVNTeamProviderType.java:140)
+	at org.tigris.subversion.subclipse.core.SVNTeamProviderType$AutoShareJob.run(SVNTeamProviderType.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 org.tigris.subversion.subclipse.core 4 4 2014-11-11 16:39:00.083
+!MESSAGE Provided SVN information does not match that on disk for project 'SmallestMultiple'.
+
+!ENTRY org.tigris.subversion.subclipse.core 4 0 2014-11-11 17:14:45.716
+!MESSAGE Could not auto-share project SumSquareDiff
+!STACK 1
+org.tigris.subversion.subclipse.core.SVNException: Provided SVN information does not match that on disk for project 'SumSquareDiff'.
+	at org.tigris.subversion.subclipse.core.resources.SVNWorkspaceRoot.setSharing(SVNWorkspaceRoot.java:206)
+	at org.tigris.subversion.subclipse.core.SVNTeamProviderType$AutoShareJob.autoconnectSVNProject(SVNTeamProviderType.java:140)
+	at org.tigris.subversion.subclipse.core.SVNTeamProviderType$AutoShareJob.run(SVNTeamProviderType.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 org.tigris.subversion.subclipse.core 4 4 2014-11-11 17:14:45.716
+!MESSAGE Provided SVN information does not match that on disk for project 'SumSquareDiff'.
+!SESSION 2014-11-11 22:08:32.384 -----------------------------------------------
+eclipse.buildId=M20120914-1800
+java.version=1.7.0_15
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IE
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.core.resources 2 10035 2014-11-11 22:08:35.580
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.tigris.subversion.subclipse.core 4 0 2014-11-11 22:14:42.854
+!MESSAGE Could not auto-share project GeneratePrimes
+!STACK 1
+org.tigris.subversion.subclipse.core.SVNException: Provided SVN information does not match that on disk for project 'GeneratePrimes'.
+	at org.tigris.subversion.subclipse.core.resources.SVNWorkspaceRoot.setSharing(SVNWorkspaceRoot.java:206)
+	at org.tigris.subversion.subclipse.core.SVNTeamProviderType$AutoShareJob.autoconnectSVNProject(SVNTeamProviderType.java:140)
+	at org.tigris.subversion.subclipse.core.SVNTeamProviderType$AutoShareJob.run(SVNTeamProviderType.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 org.tigris.subversion.subclipse.core 4 4 2014-11-11 22:14:42.856
+!MESSAGE Provided SVN information does not match that on disk for project 'GeneratePrimes'.
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2014-11-11 22:20:41.886
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for System {key=Ljava/lang/System;} [in System.class [in java.lang [in C:\Program Files\Java\jre7\lib\rt.jar]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:77)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:997)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:463)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:619)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:565)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:557)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:129)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:85)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:166)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2014-11-11 22:20:41.886
+!MESSAGE Unknown javadoc format for System {key=Ljava/lang/System;} [in System.class [in java.lang [in C:\Program Files\Java\jre7\lib\rt.jar]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2014-11-11 22:21:05.207
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for System {key=Ljava/lang/System;} [in System.class [in java.lang [in C:\Program Files\Java\jre7\lib\rt.jar]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:77)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:997)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:463)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:619)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:565)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:557)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:129)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:85)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:166)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2014-11-11 22:21:05.207
+!MESSAGE Unknown javadoc format for System {key=Ljava/lang/System;} [in System.class [in java.lang [in C:\Program Files\Java\jre7\lib\rt.jar]]]
+!SESSION 2014-11-12 01:16:15.592 -----------------------------------------------
+eclipse.buildId=M20120914-1800
+java.version=1.7.0_15
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IE
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.tigris.subversion.subclipse.core 4 0 2014-11-12 01:19:52.407
+!MESSAGE Could not auto-share project LargestProduct
+!STACK 1
+org.tigris.subversion.subclipse.core.SVNException: Provided SVN information does not match that on disk for project 'LargestProduct'.
+	at org.tigris.subversion.subclipse.core.resources.SVNWorkspaceRoot.setSharing(SVNWorkspaceRoot.java:206)
+	at org.tigris.subversion.subclipse.core.SVNTeamProviderType$AutoShareJob.autoconnectSVNProject(SVNTeamProviderType.java:140)
+	at org.tigris.subversion.subclipse.core.SVNTeamProviderType$AutoShareJob.run(SVNTeamProviderType.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 org.tigris.subversion.subclipse.core 4 4 2014-11-12 01:19:52.408
+!MESSAGE Provided SVN information does not match that on disk for project 'LargestProduct'.
